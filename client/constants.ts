@@ -1,4 +1,4 @@
-import { ResumeData } from './types';
+import { ResumeData } from "./types";
 
 export const RESUME_DATA: ResumeData = {
   name: "Revathipathi Lanka",
@@ -7,13 +7,25 @@ export const RESUME_DATA: ResumeData = {
     phone: "+91 9959965916",
     email: "revathipathilanka347@gmail.com",
     linkedin: "https://linkedin.com/in/revathipathi-lanka",
+    github: "https://github.com/revanth332",
     location: "Tadepalligudem, India",
   },
-  summary: "Full-stack engineer specializing in AI-powered web applications, LLM integrations, and real-time interactive systems. Experienced in building production-grade platforms using React, Next.js, Node.js, Azure, and modern UI frameworks. Delivered multiple GenAI features in production including intelligent chat workflows, document automation, voice-based tools, and code-transformation systems.",
+  resumeLink:
+    "https://drive.google.com/uc?export=download&id=1lCP9QfwY7Nmclfz8JBdVRCqkQwnvrb95",
+  summary:
+    "Full-stack engineer specializing in AI-powered web applications, LLM integrations, and real-time interactive systems. Experienced in building production-grade platforms using React, Next.js, Node.js, Azure, and modern UI frameworks. Delivered multiple GenAI features in production including intelligent chat workflows, document automation, voice-based tools, and code-transformation systems.",
   skills: [
     {
       category: "Frontend",
-      items: ["React", "Next.js", "TypeScript", "Shadcn", "Ant Design", "React Three Fiber", "Spline"],
+      items: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Shadcn",
+        "Ant Design",
+        "React Three Fiber",
+        "Spline",
+      ],
     },
     {
       category: "Backend",
@@ -21,11 +33,23 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       category: "AI / LLM",
-      items: ["OpenAI APIs", "Azure OpenAI", "Gemini", "Vector Search", "Prompt Engineering"],
+      items: [
+        "OpenAI APIs",
+        "Azure OpenAI",
+        "Gemini",
+        "Vector Search",
+        "Prompt Engineering",
+      ],
     },
     {
       category: "Cloud & DevOps",
-      items: ["Azure Logic Apps", "Azure AD (Entra ID)", "Docker", "Git", "CI/CD"],
+      items: [
+        "Azure Logic Apps",
+        "Azure AD (Entra ID)",
+        "Docker",
+        "Git",
+        "CI/CD",
+      ],
     },
     {
       category: "Real-Time Systems",
@@ -54,25 +78,34 @@ export const RESUME_DATA: ResumeData = {
   extractedProjects: [
     {
       title: "Enterprise AI Chatbot",
-      description: "Secure conversational agent with persistent history, integrated authentication, and LLM-driven dynamic UI components (charts/tables).",
+      description:
+        "Secure conversational agent with persistent history, integrated authentication, and LLM-driven dynamic UI components (charts/tables).",
       technologies: ["React", "Azure AD", "Azure OpenAI", "Node.js"],
       icon: "MessageSquare",
     },
     {
       title: "GenAI Code Migration Suite",
-      description: "Automated code transformation tool enabling selective file extraction and version control using Gemini and Monaco Editor.",
+      description:
+        "Automated code transformation tool enabling selective file extraction and version control using Gemini and Monaco Editor.",
       technologies: ["Gemini API", "Monaco Editor", "React", "TypeScript"],
       icon: "Code2",
     },
     {
       title: "Voice Invoice Generator",
-      description: "Hands-free invoice generation system utilizing Azure Speech SDK for real-time text-to-speech and speech-to-text interactions.",
-      technologies: ["Azure Speech SDK", "PDF Generation", "React", "Web Speech API"],
+      description:
+        "Hands-free invoice generation system utilizing Azure Speech SDK for real-time text-to-speech and speech-to-text interactions.",
+      technologies: [
+        "Azure Speech SDK",
+        "PDF Generation",
+        "React",
+        "Web Speech API",
+      ],
       icon: "Mic",
     },
     {
       title: "AI Use Case Hub",
-      description: "Searchable repository of AI implementations featuring infinite scroll, debounce search optimization, and chat previews.",
+      description:
+        "Searchable repository of AI implementations featuring infinite scroll, debounce search optimization, and chat previews.",
       technologies: ["React", "Search Algorithms", "UI/UX"],
       icon: "Database",
     },
@@ -97,9 +130,18 @@ export const RESUME_DATA: ResumeData = {
     { name: "Infosys Springboard — Associate React Developer" },
   ],
   achievements: [
-    { description: "Delivered GenAI modernization suite reducing LLM token usage by 50%." },
-    { description: "Improved enterprise chatbot engagement with dynamic LLM-based visuals." },
-    { description: "Awarded Performer of the Month for high-impact GenAI delivery." },
+    {
+      description:
+        "Delivered GenAI modernization suite reducing LLM token usage by 50%.",
+    },
+    {
+      description:
+        "Improved enterprise chatbot engagement with dynamic LLM-based visuals.",
+    },
+    {
+      description:
+        "Awarded Performer of the Month for high-impact GenAI delivery.",
+    },
     { description: "Secured 2nd place in the internal company AI Hackathon." },
     { description: "Solved 300+ coding problems on LeetCode/CodeChef." },
   ],

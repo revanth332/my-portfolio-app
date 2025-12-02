@@ -41,8 +41,10 @@ export interface ResumeData {
     phone: string;
     email: string;
     linkedin: string;
+    github: string;
     location: string;
   };
+  resumeLink:string;
   summary: string;
   skills: Skill[];
   experience: Experience[];
@@ -54,7 +56,7 @@ export interface ResumeData {
 
 export interface ChatMessage {
   id: string;
-  role: 'user' | 'model';
+  role: "user" | "model";
   text: string;
   timestamp: Date;
   isError?: boolean;

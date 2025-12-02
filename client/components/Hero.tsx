@@ -1,11 +1,14 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Download, Linkedin, Mail, Github } from 'lucide-react';
-import { RESUME_DATA } from '../constants';
+import React from "react";
+import { motion } from "framer-motion";
+import { Download, Linkedin, Mail, Github } from "lucide-react";
+import { RESUME_DATA } from "../constants";
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16"
+    >
       {/* Background Blobs */}
       <div className="absolute top-0 -left-4 w-72 h-72 bg-primary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div className="absolute top-0 -right-4 w-72 h-72 bg-secondary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -31,14 +34,14 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
+            <a
               href="#contact"
               className="px-8 py-3 bg-primary hover:bg-blue-600 text-white rounded-full font-medium transition-all shadow-lg shadow-blue-500/25 flex items-center gap-2"
             >
               <Mail className="w-4 h-4" />
               Contact Me
             </a>
-            <a 
+            <a
               href={RESUME_DATA.contact.linkedin}
               target="_blank"
               rel="noreferrer"
@@ -47,11 +50,14 @@ const Hero: React.FC = () => {
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
-             {/* Note: In a real app, href would point to actual resume file */}
-            <button className="px-8 py-3 bg-transparent text-slate-400 hover:text-white font-medium transition-all flex items-center gap-2">
+            {/* Note: In a real app, href would point to actual resume file */}
+            <a
+              href={RESUME_DATA.resumeLink}
+              className="px-8 py-3 bg-transparent text-slate-400 hover:text-white font-medium transition-all flex items-center gap-2"
+            >
               <Download className="w-4 h-4" />
               Resume
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>
