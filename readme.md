@@ -34,12 +34,13 @@ The AI is "context-aware"—it has been fed my resume and professional backgroun
 
 This project follows a monorepo structure deployed on Vercel:
 
+```text
 /
-├── api/ # Serverless Backend
-│ └── index.js # Express app & Gemini integration
-├── client/ # Frontend Source Code
-│ ├── dist/ # Production build artifacts
-│ └── src/ # React/Frontend components
+├── api/                  # Serverless Backend
+│   └── index.js          # Express app & Gemini integration
+├── client/               # Frontend Source Code
+│   ├── dist/             # Production build artifacts
+│   └── src/              # React/Frontend components
 ├── system-instruction.js # The resume data/context for the AI
-├── vercel.json # Vercel routing configuration
-└── package.json # Root dependencies
+├── vercel.json           # Vercel routing configuration
+└── package.json          # Root dependencies

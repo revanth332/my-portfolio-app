@@ -41,7 +41,7 @@ const AIChat: React.FC = () => {
     setIsLoading(true);
 
     // Take the last 5 messages to send as history for context
-    const history = messages.slice(-5);
+    const history = messages.slice(1).slice(-6);
 
     const responseText = await sendMessageToGemini(input, history);
 
