@@ -5,7 +5,7 @@
 ![Gemini API](https://img.shields.io/badge/AI-Google%20Gemini-blueviolet)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)
 
-A modern personal portfolio website designed to showcase my skills and projects. The highlight of this application is a **custom AI Chat Assistant** powered by Google's Gemini 1.5 Flash model. 
+A modern personal portfolio website designed to showcase my skills and projects. The highlight of this application is a **custom AI Chat Assistant** powered by Google's Gemini 1.5 Flash model.
 
 The AI is "context-aware"—it has been fed my resume and professional background via system instructions, allowing visitors to have a natural conversation to learn more about my expertise.
 
@@ -19,16 +19,19 @@ The AI is "context-aware"—it has been fed my resume and professional backgroun
 ## 🛠️ Tech Stack
 
 **Frontend:**
+
 - React/Vite
 - Fetch API for backend communication
 
 **Backend:**
+
 - Node.js & Express
 - Google Generative AI SDK (`@google/generative-ai`)
 - Vercel Serverless Functions
 
 **AI Model:**
-- Gemini 1.5 Flash (Optimized for speed and efficiency)
+
+- Gemini 2.5 Flash (Optimized for speed and efficiency)
 
 ## 📂 Folder Structure
 
@@ -44,3 +47,4 @@ This project follows a monorepo structure deployed on Vercel:
 ├── system-instruction.js # The resume data/context for the AI
 ├── vercel.json           # Vercel routing configuration
 └── package.json          # Root dependencies
+```

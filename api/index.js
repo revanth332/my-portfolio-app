@@ -18,7 +18,7 @@ app.post("/api/chat", async (req, res) => {
     if (!message) return res.status(400).send({ error: "Message is required" });
 
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash", // Use the specific model
+      model: "gemini-flash-latest", // Use the specific model
       systemInstruction: SYSTEM_INSTRUCTION,
     });
 
