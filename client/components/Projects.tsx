@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { RESUME_DATA } from '../constants';
-import { MessageSquare, Code2, Mic, Database, Star } from 'lucide-react';
+import { MessageSquare, Code2, Mic, Database, Star, Cpu } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   'MessageSquare': <MessageSquare className="w-6 h-6" />,
   'Code2': <Code2 className="w-6 h-6" />,
   'Mic': <Mic className="w-6 h-6" />,
   'Database': <Database className="w-6 h-6" />,
+  'Cpu': <Cpu className="w-6 h-6" />,
 };
 
 const Projects: React.FC = () => {

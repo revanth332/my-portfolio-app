@@ -1,111 +1,86 @@
-import { ResumeData } from "./types";
+import { ResumeData } from './types';
 
 export const RESUME_DATA: ResumeData = {
   name: "Revathipathi Lanka",
-  role: "Full-Stack Engineer & AI Specialist",
+  role: "Full Stack Developer",
   contact: {
     phone: "+91 9959965916",
     email: "revathipathilanka347@gmail.com",
     linkedin: "https://linkedin.com/in/revathipathi-lanka",
     github: "https://github.com/revanth332",
-    location: "Tadepalligudem, India",
+    location: "Tadepalligudem, Andhra Pradesh, India",
   },
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1lCP9QfwY7Nmclfz8JBdVRCqkQwnvrb95",
-  summary:
-    "Full-stack engineer specializing in AI-powered web applications, LLM integrations, and real-time interactive systems. Experienced in building production-grade platforms using React, Next.js, Node.js, Azure, and modern UI frameworks. Delivered multiple GenAI features in production including intelligent chat workflows, document automation, voice-based tools, and code-transformation systems.",
+  summary: "Full Stack Developer with experience building enterprise AI systems using Python (FastAPI), Node.js, and React. Developed production conversational platforms using RAG pipelines, Azure AI Search, and streaming LLM responses. Skilled in API development, SQL schema design, and cloud deployment across Azure and GCP.",
   skills: [
     {
-      category: "Frontend",
-      items: [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Shadcn",
-        "Ant Design",
-        "React Three Fiber",
-        "Spline",
-      ],
+      category: "Languages",
+      items: ["Python", "JavaScript", "TypeScript", "SQL"],
     },
     {
       category: "Backend",
-      items: ["Node.js", "Express", "REST APIs"],
+      items: ["FastAPI", "Node.js", "Express", "REST APIs", "Async Programming"],
     },
     {
-      category: "AI / LLM",
-      items: [
-        "OpenAI APIs",
-        "Azure OpenAI",
-        "Gemini",
-        "Vector Search",
-        "Prompt Engineering",
-      ],
+      category: "AI Systems",
+      items: ["RAG Systems", "Azure AI Search", "OpenAI APIs", "Gemini"],
+    },
+    {
+      category: "Databases",
+      items: ["SQL","MongoDB"],
+    },
+    {
+      category: "Frontend",
+      items: ["React", "Next.js"],
     },
     {
       category: "Cloud & DevOps",
-      items: [
-        "Azure Logic Apps",
-        "Azure AD (Entra ID)",
-        "Docker",
-        "Git",
-        "CI/CD",
-      ],
-    },
-    {
-      category: "Real-Time Systems",
-      items: ["WebSockets", "WebRTC"],
-    },
-    {
-      category: "Other",
-      items: ["Python (Automation)", "SQL Basics", "Agile Workflow"],
+      items: ["Azure", "GCP", "Docker"],
     },
   ],
   experience: [
     {
       company: "Miracle Software Systems",
       role: "Software Developer",
-      period: "Jul 2024 – Present",
+      period: "May 2024 – Present",
       location: "Visakhapatnam, India",
       points: [
-        "Built an enterprise conversational chatbot using React and Azure AD with secure authentication and persistent chat history.",
-        "Integrated LLM-driven charts, tables, and PDF generation, enabling richer interactive responses and improved user task completion.",
-        "Developed a searchable AI Use Case Hub with infinite scroll, debounce search, and contextual chat previews.",
-        "Built a voice-powered invoice generator using Azure Speech SDK with real-time TTS/STT interaction and automated PDF generation.",
-        "Developed a GenAI-powered code migration suite using Monaco Editor and Gemini, enabling selective file extraction and version-controlled transformations.",
+        "Developed an Enterprise Conversational AI Platform using Python (FastAPI) and RAG pipelines with Azure AI Search, supporting ~100 internal users with sub-second streaming responses.",
+        "Designed and implemented a robust MSSQL schema for persistent conversation history and dynamic context retrieval in production AI systems.",
+        "Built an Industrial Device Intelligence Chatbot enabling natural language queries over InfluxDB time-series data using Vercel AI SDK and custom agent workflows.",
+        "Developed a Voice-Based Invoice Generator using Azure Speech SDK and Blob Storage, reducing manual data entry time by 30–40% through automation.",
       ],
     },
   ],
   extractedProjects: [
     {
-      title: "Enterprise AI Chatbot",
-      description:
-        "Secure conversational agent with persistent history, integrated authentication, and LLM-driven dynamic UI components (charts/tables).",
-      technologies: ["React", "Azure AD", "Azure OpenAI", "Node.js"],
+      title: "Enterprise Conversational AI Platform",
+      description: "RAG-based chatbot using Azure AI Search, indexing ~200 enterprise documents and supporting ~100 internal users with streaming LLM responses.",
+      technologies: ["Python", "FastAPI", "Azure AI Search", "MSSQL", "RAG"],
       icon: "MessageSquare",
     },
     {
+      title: "Industrial Device Intelligence Chatbot",
+      description: "AI assistant enabling engineers to query InfluxDB time-series sensor data using natural language and agent workflows.",
+      technologies: ["Node.js", "SQL", "InfluxDB", "Vercel AI SDK"],
+      icon: "Cpu",
+    },
+    {
+      title: "Voice-Based Invoice Generator",
+      description: "Hands-free invoice generation system utilizing Azure Speech SDK for real-time text-to-speech and speech-to-text interactions.",
+      technologies: ["Azure Speech SDK", "Azure Blob Storage", "SQL", "Node.js"],
+      icon: "Mic",
+    },
+    {
       title: "GenAI Code Migration Suite",
-      description:
-        "Automated code transformation tool enabling selective file extraction and version control using Gemini and Monaco Editor.",
+      description: "Automated code transformation tool enabling selective file extraction and version control using Gemini and Monaco Editor.",
       technologies: ["Gemini API", "Monaco Editor", "React", "TypeScript"],
       icon: "Code2",
     },
     {
-      title: "Voice Invoice Generator",
-      description:
-        "Hands-free invoice generation system utilizing Azure Speech SDK for real-time text-to-speech and speech-to-text interactions.",
-      technologies: [
-        "Azure Speech SDK",
-        "PDF Generation",
-        "React",
-        "Web Speech API",
-      ],
-      icon: "Mic",
-    },
-    {
       title: "AI Use Case Hub",
-      description:
-        "Searchable repository of AI implementations featuring infinite scroll, debounce search optimization, and chat previews.",
+      description: "Searchable repository of AI implementations featuring infinite scroll, debounce search optimization, and chat previews.",
       technologies: ["React", "Search Algorithms", "UI/UX"],
       icon: "Database",
     },
@@ -113,15 +88,9 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       institution: "R.V.R & J.C Engineering College",
-      degree: "B.Tech in Computer Science and Business Systems",
+      degree: "B.Tech – Computer Science and Business Systems",
       period: "2020 – 2024",
       gpa: "CGPA: 8.49",
-    },
-    {
-      institution: "Chaithanya Junior College",
-      degree: "Intermediate",
-      period: "2018 – 2020",
-      gpa: "GPA: 9.87",
     },
   ],
   certifications: [
@@ -130,19 +99,8 @@ export const RESUME_DATA: ResumeData = {
     { name: "Infosys Springboard — Associate React Developer" },
   ],
   achievements: [
-    {
-      description:
-        "Delivered GenAI modernization suite reducing LLM token usage by 50%.",
-    },
-    {
-      description:
-        "Improved enterprise chatbot engagement with dynamic LLM-based visuals.",
-    },
-    {
-      description:
-        "Awarded Performer of the Month for high-impact GenAI delivery.",
-    },
-    { description: "Secured 2nd place in the internal company AI Hackathon." },
+    { description: "Awarded Performer of the Month for high-impact AI solution delivery." },
+    { description: "Secured 2nd place in company-wide internal AI Hackathon." },
     { description: "Solved 300+ coding problems on LeetCode/CodeChef." },
   ],
 };

@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Revathipathi Lanka - AI Full-Stack Engineer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, interactive portfolio website showcasing the professional experience, skills, and projects of Revathipathi Lanka.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1CvVDcjESPP32PQeAiUtmLEuD-roOeN1t
+- **AI Resume Assistant**: An integrated chatbot powered by **Google Gemini** that can answer questions about Revathipathi's professional background, technical skills, and specific project details in real-time.
+- **Interactive UI**: Built with **React 19** and **Framer Motion** for smooth, engaging transitions and animations.
+- **Responsive Design**: Fully responsive layout using **Tailwind CSS**, optimized for all device sizes.
+- **Project Showcase**: Detailed view of featured projects with technology tags and descriptions.
+- **Direct Resume Access**: Integrated Google Drive link for quick resume viewing and downloading.
+- **Contact Integration**: Easy access to LinkedIn, GitHub, and email.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **AI Integration**: Google GenAI SDK (Gemini API)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
+## 📦 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+- Google Gemini API Key
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd revathipathi-portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file in the root directory and add your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📄 License
+
+This project is licensed under the MIT License.

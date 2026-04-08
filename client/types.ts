@@ -56,7 +56,7 @@ export interface ResumeData {
 
 export interface ChatMessage {
   id: string;
-  role: "user" | "model";
+  role: 'user' | 'model';
   text: string;
   timestamp: Date;
   isError?: boolean;
